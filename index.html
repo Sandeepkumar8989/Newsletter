@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Newsletter</title>
+    <!-- Include Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="icon" type="image/png" href="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ0HMRNlFlzvzEGn5dHDVwnYEPuGBIOQLGBvohbCdanOkqCraoGrsgfSxroiHY1Hk2X_gs&usqp=CAU">
+    <style>
+        /* Add custom styles here */
+        .newsletter-header {
+            background-color: rgba(56,160,234,255);
+            background-image: url("https://img.freepik.com/free-photo/vintage-grunge-blue-concrete-texture-studio-wall-background-with-vignette_1258-28374.jpg");
+            color: #fff;
+            padding: 20px;       
+        }
+
+        .newsletter-header h1 {
+            margin-bottom: 10px; /* Adjust as needed */
+        }
+
+        .event-date-box {
+            background-color: #fff; /* White background */
+            padding: 20px; /* Adjust as needed */
+            border-radius: 5px; /* Rounded corners */
+            text-align: center;
+            max-width: 200px;
+            background-image: url("https://img.freepik.com/free-photo/abstract-luxury-plain-blur-grey-black-gradient-used-as-background-studio-wall-display-your-products_1258-63644.jpg?size=626&ext=jpg");
+        }
+
+        .event-date {
+            font-size: 18px; /* Adjust as needed */
+            /* color: rgba(13,157,218,255); */
+            color: black;
+            font-family: 'American Typewriter',sans-serif;
+        }
+
+        .newsletter-content {
+            padding: 20px;
+            background-color: rgba(250,250,250,255);
+            
+        }
+
+        .newsletter-footer {
+            background-color: #007bff;
+            color: #fff;
+            padding: 10px;
+        }
+
+        .circle-img {
+            border-radius: 50%;
+            border: 2px solid blue;
+            max-width: 40%;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+            margin-top: 20px; /* Adjust as needed */
+           
+        }
+
+        .speaker-container {
+            text-align: center;
+        }
+
+        .box-before-footer {
+            background-color: #f8f9fa; /* Background color for the box */
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px; /* Adjust as needed */
+        }
+
+        .box-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .box-text {
+            flex: 1;
+        }
+
+        .box-button {
+            margin-left: 20px; /* Adjust as needed */
+        }
+
+        .box-image {
+            flex: 1; /* Make the image take up remaining space */
+            text-align: right; /* Align the image to the right */
+        }
+    </style>
+</head>
+<body>
+
+    <!--Header Start-->
+    <div class="container" style="max-width: 800px;">
+        <div class="newsletter-header" >
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="event-date-box">
+                        <p class="event-date"> 
+                            <strong>SEPTEMBER <br> <Span style="font-size: 40px;">20</Span>  <br> 10:00 AM</strong>  </p> <!-- Add the event date here -->
+                            <a href="https://www.verticurl.com/" class="btn btn-primary" target="_blank">Register Now</a>
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <h6>LIVE WEBINAR</h6>
+                    <h1>Verticurl</h1>
+                    <h4>Delivering Valuable Customer</h4>
+                    <h4>Experience Powered by MarTech</h4>
+
+                </div>
+            </div>
+        </div>
+    <!--Header End-->
+
+
+    <!--Content Start-->
+        <div class="newsletter-content">
+            
+            <p>
+                Verticurl, a division of Ogilvy, was established in 2006 with the mission to be the world’s leading marketing technology services agency for multinational organizations.
+            </p>
+            <p>Verticurl is a global marketing agency that offers services such as:</p>
+            <ul style="line-height: 2.5rem;">
+                <li>Customer experience (CX) management</li>
+                <li>MarTech enablement</li>
+                <li>Demand generation</li>
+                <li>Marketing automation consulting</li>
+            </ul>
+            <h4 style="text-align: center;">SPEAKERS</h4>
+            <div class="row speaker-container">
+                
+                <div class="col-md-6">
+                    
+                    <img src="https://www.verticurl.com/wp-content/uploads/2021/04/ab-gaur-400x512.jpg.webp" alt="Speaker 1" class="circle-img">
+                    <p>Ab Gaur</p>
+                    <p>Founder and Chief Executive Officer</p>
+                </div>
+                <div class="col-md-6">
+                    <img src="https://www.verticurl.com/wp-content/uploads/2021/04/nate-mcnabb-400x512.jpg.webp" alt="Speaker 2" class="circle-img">
+                    <p>Nate McNabb</p>
+                    <p>President, Global Client Services</p>
+                </div>
+                <a href="https://www.verticurl.com/" class="btn btn-link">Register Now</a>
+            </div>
+        </div>
+    <!--Content End-->
+
+    <!--Box Start-->
+        <div class="box-before-footer">
+            <div class="box-content">
+                <div class="box-text">
+                    <p style="color: #0d3160; font-size: 24px;">Your guide to transitioning  <br> accounts seamlessly <br></p>
+                    <p>  Deliver connected experiences at every <br> stage with effective account handoffs</p>
+                    <div class="box-button">
+                        <a href="https://www.verticurl.com/" class="btn btn-primary">Get the Guide</a>
+                    </div>
+                </div>
+                <div class="box-image">
+                    <img src="doc-file.gif" alt="Circle Image" class="circle-img">
+                    
+                </div>
+            </div>
+        </div>
+     <!--Box End-->    
+
+    <!--Footer Start-->
+        <div class="newsletter-footer">
+            <p>&copy; 2023 Verticurl Marketing Pvt Ltd</p>
+        </div>
+    </div>
+    <!--Footer End-->
+
+    <!-- Include Bootstrap JS (optional) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
